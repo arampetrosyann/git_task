@@ -1,7 +1,13 @@
 "use strict"
 
-const getRandomNumber = function () {
-    const random = Math.floor((Math.random() * 100) + 1);
+const getRandomLetter = function () {
+    const chars = "ABCDEFGHIJKLMNOPQRSTUVWXTZabcdefghiklmnopqrstuvwxyz";
 
-    return random;
+    let randChar = '';
+    
+    let random = Math.floor(Math.random() * chars.length);
+           
+    randChar = chars.substring(random, random +1);
+
+    return randChar;
 };
