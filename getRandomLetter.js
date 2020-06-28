@@ -5,3 +5,5 @@ const getRandomNumber = function () {
 
     return random;
 };
+
+console.log(getRandomNumber());

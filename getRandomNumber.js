@@ -11,3 +11,5 @@ const getRandomLetter = function () {
 
     return randChar;
 };
+
+console.log(getRandomLetter());
